@@ -1,0 +1,33 @@
+#!fsharp
+
+open System.IO
+open System.Text.RegularExpressions
+
+let serviceList (path:string) = 
+    [
+    use reader = new StreamReader(path)
+    while not reader.EndOfStream do
+        let line = reader.ReadLine()
+        let linematch = Regex.Match(line, @"^(\w+)\s*//\s*(.*?)\s*$|^(\w+)\s*$")
+        if linematch.Groups.[1].Success then
+            yield (linematch.Groups.[1].Value, linematch.Groups.[2].Value)
+        elif linematch.Groups.[3].Success then
+            yield (linematch.Groups.[3].Value, "")
+    ]
+
+let generateCMD serviceList =
+    let cmdSetPre = 
+        serviceList
+        |> List.map (fun name -> 
+            $"Set-Service -Name \"{fst <| name}\" -StartupType disabled")
+        |> List.fold (fun acc cmd -> acc + "; " + cmd) ""
+    let cmdSet = cmdSetPre.Remove(0, 2)
+    if cmdSet.Length <= 8191 then
+        cmdSet
+    else
+        failwith "Command set too long!"
+
+#!fsharp
+
+// Copy the generated cmd to powershell with admin privilege
+generateCMD <| serviceList @"service.txt"

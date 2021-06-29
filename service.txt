@@ -1,0 +1,48 @@
+AxInstSV  // ActiveX Installer (AxInstSV) - インターネットからの ActiveX コントロールのインストールに対し、ユーザー アカウント制御により検証を行い、グループ ポリシー設定に基づいて ActiveX コントロールのインストールを管理します。このサービスはオンデマンドで開始され、無効になっている場合、ActiveX コントロールのインストールはブラウザーの既定の設定に従って行われます。
+AppMgmt  // Application Management - グループ ポリシーで展開されるソフトウェアに対する、プロセスのインストール、削除および列挙の要求です。サービスが無効な場合、ユーザーはグループ ポリシーで展開されるソフトウェアをインストール、削除または列挙することができません。また、明示的にこのサービスに依存しているサービスを開始することもできません。
+PeerDistSvc  // BranchCache - このサービスでは、ローカル サブネット上のピアからのネットワーク コンテンツがキャッシュされます。
+CertPropSvc  // Certificate Propagation - ユーザー証明書とルート証明書をスマート カードから現在のユーザーの証明書ストアにコピーし、スマート カードがスマート カード リーダーに挿入されたときに検出します。また、必要に応じてスマート カード プラグ アンド プレイ ミニドライバーをインストールします。
+DiagTrack  // Connected User Experiences and Telemetry - サービスを使用すると、アプリケーション内エクスペリエンスと接続ユーザーのエクスペリエンスをサポートする機能が有効になります。また、[フィードバックと診断] で診断と使用状況に関するプライバシー オプション設定が有効になっている場合、このサービスは、イベント ドリブン方式による診断情報および使用状況情報の収集と送信も管理します (これらの情報は、Windows プラットフォームのエクスペリエンスと品質を向上するために使用されます)。
+DoSvc  // Delivery Optimization - コンテンツ配信の最適化タスクを実行します
+DeviceAssociationService  // Device Association Service - システムとワイヤード (有線) またはワイヤレス デバイスの間のペアリングを有効にします。
+DPS  // Diagnostic Policy Service - 診断ポリシー サービスを使用すると、Windows コンポーネントの問題を検出、トラブルシューティング、および解決できます。このサービスを停止すると、診断は実行されません。
+WdiServiceHost  // Diagnostic Service Host - Diagnostic Service Host は、ローカル サービス コンテキストでの実行が必要な診断をホストするために、診断ポリシー サービスによって使用されます。このサービスを停止すると、このサービスに依存する診断はすべて機能しなくなります。
+WdiSystemHost  // Diagnostic Service Host - Diagnostic System Host は、ローカル システム コンテキストでの実行が必要な診断をホストするために、診断ポリシー サービスによって使用されます。このサービスを停止すると、このサービスに依存する診断はすべて機能しなくなります。
+TrkWks  // Distributed Link Tracking Client - ネットワーク内またはコンピューターの NTFS ボリューム間のリンクを管理します。
+MSDTC  // Distributed Transaction Coordinator - データベース、メッセージ キュー、またはファイル システムなど、複数のリソース マネージャーに分散されたトランザクションを調整します。このサービスが停止すると、これらのトランザクションは開始できません。このサービスが無効な場合は、このサービスに依存するサービスは開始できません。
+embeddedmode  // Embedded Mode - The Embedded Mode service enables scenarios related to Background Applications.  Disabling this service will prevent Background Applications from being activated.
+Fax  // Fax - このコンピューターまたはネットワーク上にある FAX リソースを利用して、FAX を送信したり受信したりできます。
+fdPHost  // Function Discovery Provider Host - FDPHOST サービスは、機能探索 (FD) ネットワーク探索プロバイダーをホストします。
+FDResPub  // Function Discovery Resource Publication - このコンピューターおよびこのコンピューターに接続されているリソースを公開して、ネットワーク上で検出できるようにします。このサービスを停止するとネットワーク リソースは公開されなくなり、ネットワーク上の他のコンピューターがこれらのリソースを検出されなくなります。
+lfsvc  // Geolocation Service - このサービスは、システムの現在の位置を監視し、ジオフェンス (イベントが関連付けられた地理的位置) を管理します。このサービスを無効にすると、アプリケーションでジオフェンスの通知を利用したり受信したりすることができなくなります。
+SharedAccess  // Internet Connection Sharing (ICS) - ホーム ネットワークまたは小規模オフィスのネットワークに対してネットワーク アドレスの変換、アドレスの指定、名前解決、およびアタックの防止のサービスを提供します。
+diagnosticshub.standardcollector.service  // Microsoft (R) Diagnostics Hub Standard Collector Service  Microsoft (R) 診断ハブ標準コレクター サービス
+MSiSCSI  // Microsoft iSCSI Initiator Service  このコンピューターからリモート iSCSI ターゲット デバイスへのインターネット SCSI (iSCSI) セッションを管理します。このサービスが中止された場合、このコンピューターは ISCSI ターゲットにログインまたはアクセスできなくなります。このサービスが無効にされている場合、明示的にそれに依存しているすべてのサービスの開始が失敗します。
+NetTcpPortSharing  // Net.Tcp Port Sharing Service  net.tcp プロトコル経由で TCP ポートを共有する機能を提供します。
+CscService  // Offline Files - オフライン ファイル サービスは、オフライン ファイル キャッシュのメンテナンス活動の実行、ユーザーのログオンおよびログオフ イベントへの応答、パブリック API の内部の実装、およびオフライン ファイル活動やキャッシュ状態の変化に興味を持つユーザーに対する興味深いイベントのディスパッチを行います。
+PNRPsvc  // Peer Name Resolution Protocol - 有効にすると、ピア名解決プロトコル (PNRP) を使用して、インターネット上でサーバーなしのピア名解決が可能になります。無効にした場合は、一部のピア ツー ピアと共同作業のアプリケーション (リモート アシスタンスなど) が機能しなくなることがあります。
+p2psvc  // Peer Networking Grouping - 有効にすると、ピアツーピア グループ化サービスを使用して、マルチパーティ通信が可能になります。無効にした場合は、一部のアプリケーション (ホームグループなど) が機能しなくなることがあります。
+p2pimsvc  // Peer Networking Identity Manager - 有効にすると、ピア名解決プロトコル (PNRP) およびピア ツー ピア グループ化サービスに ID サービスを提供します。無効にした場合は、ピア名解決プロトコル (PNRP) およびピア ツー ピア グループ化サービスが機能しなくなることがあり、また、一部のアプリケーション (ホームグループやリモート アシスタンスなど) が正しく機能しなくなることがあります。
+PNRPAutoReg  // PNRP Machine Name Publication Service - このサービスにより、ピア名解決プロトコルを使用してコンピューター名が公開されます。netsh のコンテキスト 'p2p pnrp peer' で構成を管理できます。
+WPDBusEnum  // Portable Device Enumerator Service - リムーバブル大容量記憶装置用のグループ ポリシーを適用します。Windows Media Player やイメージ インポート ウィザードなどのアプリケーションにより、リムーバブル大容量記憶装置を使用してコンテンツを転送または同期できるようにします。
+wercplsupport  // Problem Reports and Solutions Control Panel Support - [問題の報告と解決策] コントロール パネルで、システムレベルの問題レポートの表示、送信、および削除のサポートを提供します。
+SessionEnv  // Remote Desktop Configuration - リモート デスクトップ サービスとリモート デスクトップに関連する、SYSTEM コンテキストを必要とするすべての構成およびセッション管理のアクティビティには、リモート デスクトップの構成サービス (RDCS) が使用されます。これらのアクティビティには、セッションごとの一時フォルダー、RD テーマ、および RD 証明書が含まれます。
+TermService  // Remote Desktop Services - ユーザーがリモート コンピューターに対話的に接続できるようになります。リモート デスクトップおよびリモート デスクトップ セッション ホスト サーバーは、このサービスに依存します。このコンピューターをリモートで使えないようにするには、コントロール パネルの [システム] の [リモート] タブにあるチェックボックスをオフにしてください。
+UmRdpService  // Remote Desktop Services UserMode Port Redirector - RDP 接続用のプリンター/ドライブ/ポートのリダイレクトを許可します
+RemoteRegistry  // Remote Registry - リモート ユーザーがこのコンピューターのレジストリ設定を変更できるようにします。このサービスが停止している場合は、このコンピューターのユーザーのみがレジストリを変更できます。このサービスを無効にすると、このサービスに明示的に依存するすべてのサービスを開始できなくなります。
+RemoteAccess  // Routing and Remote Access - 企業ユーザーのために、ローカル エリア ネットワークとワイド エリア ネットワーク環境でのルーティング サービスを提供します。
+LanmanServer  // Server - このコンピューターでネットワークをとおしてのファイル、印刷、および名前付パイプ共有をサポートします。このサービスが停止した場合、これらの機能は利用できなくなります。このサービスが使用不可にされた場合、このサービスに明示的に依存するサービスはすべて起動できなくなります。
+SNMPTRAP  // SNMP Trap - ローカルまたはリモートの簡易ネットワーク管理プロトコル (SNMP) エージェントによって生成されたトラップ メッセージを受信して、このコンピューター上で実行されている SNMP 管理プログラムに転送します。このサービスが停止している場合は、このコンピューター上の SNMP ベースのプログラムは SNMP トラップ メッセージを受信しません。このサービスが無効になっている場合
+SSDPSRV  // SSDP Discovery - SSDP 発見プロトコルを使用する、UPnP デバイスなどのネットワーク デバイスやサービスを検出します。また、ローカル コンピューターで実行中の SSDP デバイスを表示します。サービスを停止すると、SSDP ベースのデバイスは検出されません。サービスを無効にすると、このサービスに明示的に依存するサービスは開始できません。
+upnphost  // UPnP Device Host - このコンピューター上での UPnP デバイスのホストを可能にします。サービスを停止すると、ホストされている UPnP デバイスは機能しなくなり、ホストされるデバイスを追加することもできません。サービスを無効にすると、明示的にこのサービスに依存しているサービスは開始できなくなります。
+UevAgentService  // User Experience Virtualization Service - アプリケーション設定と OS 設定のローミングをサポートします
+WebClient  // WebClient - Windows ベースのプログラムでインターネット ベースのファイルを作成および修正したり、インターネット ベースのファイルにアクセスしたりすることができます。このサービスが停止された場合、これらの機能は利用できなくなります。このサービスが無効になった場合は、このサービスに依存するサービスは開始できなくなります。
+WFDSConMgrSvc  // Wi-Fi Direct Services Connection Manager Service - ワイヤレス サービスへの接続を管理します (ワイヤレス ディスプレイやドッキングなど)。
+WerSvc  // Windows Error Reporting Service - プログラムの動作または応答が停止したときにエラーが報告されるのを許可し、既にある解決策が配信されるのを許可します。また、診断および修復サービスのためのログの生成を許可します。このサービスが停止されると、エラーの報告が正常に動作せず、診断サービスおよび修復の結果が表示されない可能性があります。
+WinRM  // Windows Remote Management (WS-Management) - Windows リモート管理 (WinRM) サービスは、リモート管理用の WS-Management プロトコルを実装しています。WS-Management は、リモートのソフトウェアとハードウェアの管理に使用される標準の Web サービス プロトコルです。WinRM サービスは、ネットワーク上で WS-Management 要求をリッスンして処理します。WinRM サービスがネットワークをリッスンできるように、winrm.cmd コマンド ライン ツール
+icssvc  // Windows Mobile Hotspot Service - 携帯データ接続を別のデバイスと共有する機能を提供します。
+XboxGipSvc  // Xbox Accessory Management Service - This service manages connected Xbox Accessories.
+xbgm  // Xbox Game Monitoring - This service monitors games.
+XblAuthManager  // Xbox Live Auth Manager - Xbox Live との対話を可能にするために認証や認証サービスを提供します。サービスが停止した場合、正常に機能しないアプリケーションがあります。
+XblGameSave  // Xbox Live Game Save - このサービスを使用すれば、Xbox Live セーブ可能なゲームのセーブ データを同期できます。サービスの終了時には、ゲームのセーブ データは Xbox Live にアップロードやダウンロードされません。
+XboxNetApiSvc  // Xbox Live Networking Service - このサービスは、Windows.Networking.XboxLive アプリケーション プログラミング インターフェイスに対応しています。
