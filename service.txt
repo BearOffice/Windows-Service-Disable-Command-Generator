@@ -4,7 +4,6 @@ PeerDistSvc  // BranchCache - このサービスでは、ローカル サブネ�
 CertPropSvc  // Certificate Propagation - ユーザー証明書とルート証明書をスマート カードから現在のユーザーの証明書ストアにコピーし、スマート カードがスマート カード リーダーに挿入されたときに検出します。また、必要に応じてスマート カード プラグ アンド プレイ ミニドライバーをインストールします。
 DiagTrack  // Connected User Experiences and Telemetry - サービスを使用すると、アプリケーション内エクスペリエンスと接続ユーザーのエクスペリエンスをサポートする機能が有効になります。また、[フィードバックと診断] で診断と使用状況に関するプライバシー オプション設定が有効になっている場合、このサービスは、イベント ドリブン方式による診断情報および使用状況情報の収集と送信も管理します (これらの情報は、Windows プラットフォームのエクスペリエンスと品質を向上するために使用されます)。
 DoSvc  // Delivery Optimization - コンテンツ配信の最適化タスクを実行します
-DeviceAssociationService  // Device Association Service - システムとワイヤード (有線) またはワイヤレス デバイスの間のペアリングを有効にします。
 DPS  // Diagnostic Policy Service - 診断ポリシー サービスを使用すると、Windows コンポーネントの問題を検出、トラブルシューティング、および解決できます。このサービスを停止すると、診断は実行されません。
 WdiServiceHost  // Diagnostic Service Host - Diagnostic Service Host は、ローカル サービス コンテキストでの実行が必要な診断をホストするために、診断ポリシー サービスによって使用されます。このサービスを停止すると、このサービスに依存する診断はすべて機能しなくなります。
 WdiSystemHost  // Diagnostic Service Host - Diagnostic System Host は、ローカル システム コンテキストでの実行が必要な診断をホストするために、診断ポリシー サービスによって使用されます。このサービスを停止すると、このサービスに依存する診断はすべて機能しなくなります。
