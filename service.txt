@@ -36,7 +36,6 @@ SSDPSRV  // SSDP Discovery - SSDP 発見プロトコルを使用する、UPnP �
 upnphost  // UPnP Device Host - このコンピューター上での UPnP デバイスのホストを可能にします。サービスを停止すると、ホストされている UPnP デバイスは機能しなくなり、ホストされるデバイスを追加することもできません。サービスを無効にすると、明示的にこのサービスに依存しているサービスは開始できなくなります。
 UevAgentService  // User Experience Virtualization Service - アプリケーション設定と OS 設定のローミングをサポートします
 WebClient  // WebClient - Windows ベースのプログラムでインターネット ベースのファイルを作成および修正したり、インターネット ベースのファイルにアクセスしたりすることができます。このサービスが停止された場合、これらの機能は利用できなくなります。このサービスが無効になった場合は、このサービスに依存するサービスは開始できなくなります。
-WFDSConMgrSvc  // Wi-Fi Direct Services Connection Manager Service - ワイヤレス サービスへの接続を管理します (ワイヤレス ディスプレイやドッキングなど)。
 WerSvc  // Windows Error Reporting Service - プログラムの動作または応答が停止したときにエラーが報告されるのを許可し、既にある解決策が配信されるのを許可します。また、診断および修復サービスのためのログの生成を許可します。このサービスが停止されると、エラーの報告が正常に動作せず、診断サービスおよび修復の結果が表示されない可能性があります。
 WinRM  // Windows Remote Management (WS-Management) - Windows リモート管理 (WinRM) サービスは、リモート管理用の WS-Management プロトコルを実装しています。WS-Management は、リモートのソフトウェアとハードウェアの管理に使用される標準の Web サービス プロトコルです。WinRM サービスは、ネットワーク上で WS-Management 要求をリッスンして処理します。WinRM サービスがネットワークをリッスンできるように、winrm.cmd コマンド ライン ツール
 icssvc  // Windows Mobile Hotspot Service - 携帯データ接続を別のデバイスと共有する機能を提供します。
